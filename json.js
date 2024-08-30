@@ -24,11 +24,16 @@ const json = {
          },
          
          {
-          "type": "text",
+          "type": "dropdown",
           "name": "completed-by",
           "startWithNewLine": false,
-          "title": "Completed By:",
-          "isRequired": true
+          "title": "Line:",
+          "isRequired": true,
+          "choices": [
+            { "value": "employee1", "text": "Shot Line" },
+          
+            
+        ]
          },
          {
           "type": "text",
@@ -57,13 +62,8 @@ const json = {
          {
           "type": "html",
           "name": "instructions-text",
-          "html": "<p style=\"margin-top: 1em; text-align: justify;\">  <strong>Instructions</strong></p><p style=\"margin-top: 1em; text-align: justify;\">In keeping with our organization’s goal to continuously improve, we are asking for your candid feedback on the performance of the above individual <u>this past year</u>. A confidential summary of all feedback received will be prepared for each individual so that he or she can use the feedback to learn and develop. </p><p style=\"margin-top: 0.5em; text-align: justify;\">Your individual feedback will be averaged into all the responses received in order to protect youranonymity and ensure that the results each individual receives are completely confidential. Our HumanResources team may also prepare an overall summary to assess areas for additional company-providedtraining.</p><p style=\"margin-top: 0.5em; text-align: justify;\">Select a numerical rating and use the space provided at the end of each section to offercommentary and contextual insights to support and substantiate your rating, as well as tofacilitate conversation as part of the recipient’s formal performance evaluation. </p><p style=\"margin-top: 0.5em; text-align: justify;\">We recommend rating employee effectiveness using the conversational 5-point scale below. If you do not feel you have sufficient insight to score the employee on a particular measure, please select N/A. </p><p style=\"margin-top: 0.5em; text-align: justify;\">Thank you for your contribution. </p>"
+          "html": "<p style=\"margin-top: 1em; text-align: justify;\">  <strong>Instructions</strong></p><p style=\"margin-top: 1em; text-align: justify;\">To rate an employee's skills in the Skill Matrix, select the employee and assign ratings from 1 to 5 for each skill category, such as behavioral skills. Provide any relevant comments to support your ratings, and save the information once complete. Ensure ratings are objective and reflective of the employee’s performance.<u></u>. </p><p style=\"margin-top: 0.5em; text-align: justify;\"></p><p style=\"margin-top: 0.5em; text-align: justify;\"></p>"
          },
-         {
-          "type": "html",
-          "name": "score-definitions",
-          "html": "<p style=\"margin-top: 1em; text-align: justify;\">  <strong>Scoring definitions </strong></p>   <ul><li style=\"margin-top: 1em; text-align: justify;\"><b>1 = Unsatisfactory:</b> Performance consistently fails to meet minimum position requirements;employee lacks skills required or fails to utilize necessary skills.</li><li style=\"margin-top: 1em; text-align: justify;\"><b>2 = Inconsistent:</b> Performance meets some, but not all position requirements.</li><li style=\"margin-top: 1em; text-align: justify;\"><b>3 = Proficient:</b> Performance consistently meets position requirements.</li><li style=\"margin-top: 1em; text-align: justify;\"><b>4 = Highly Effective</b> Performance frequently exceeds position requirements.</li><li style=\"margin-top: 1em; text-align: justify;\"><b>NA = New / Not Applicable:</b> Employee has not been in position long enough to have demonstrated the essential elements of the position and will be reviewed at a later agreedupon date.</li></ul>"
-         }
         ]
        }
       ],
