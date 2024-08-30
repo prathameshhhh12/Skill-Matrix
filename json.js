@@ -1,7 +1,7 @@
 const json = {
     "title": "Skill Matrix - EPL",
     "logoPosition": "right",
-    "completedHtml": "<div style=\"max-width: 1000px; width: 100%; padding 32px; margin: 0 auto;\">    <p style=\"text-align: justify\">Dear {completed-by},</p><br>    <p style=\"text-align: justify\">We sincerely appreciate your time and feedback. Your input is invaluable in helping us foster growth and development within our team. Thank you for your contribution!</p><br>    <p style=\"text-align: justify\">Best regards,</p><br>    <p style=\"text-align: justify\">Human Resources Team</p></div>",
+    "completedHtml": "<div style=\"max-width: 1000px; width: 100%; padding 32px; margin: 0 auto;\">    <p style=\"text-align: justify\">Dear {completed-by},</p><br>    <p style=\"text-align: justify\">We sincerely appreciate your time and feedback. Your input is invaluable in helping us foster growth and development within our team. Thank you for your contribution!</p><br>    <p style=\"text-align: justify\">Best regards,</p><br>    <p style=\"text-align: justify\">EPL</p></div>",
     "pages": [
      {
       "name": "page-one",
